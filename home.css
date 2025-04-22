@@ -169,3 +169,64 @@
 .bottoms{
     height: 15vh;    
 }
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+    .main {
+      width: 90vw;
+      height: auto;
+      padding: 1rem;
+    }
+  
+    .nav-bar {
+      flex-wrap: wrap;
+      width: 100%;
+      gap: 0.5rem;
+      font-size: 0.9rem;
+    }
+  
+    .info-block {
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+  
+    .info-block-2 {
+      align-items: center;
+      text-align: center;
+      margin-top: 0.5rem;
+    }
+  
+    #zuck {
+      height: 20vh;
+      width: auto;
+      margin-top: 0.5rem;
+    }
+  
+    .year-block {
+      text-align: center;
+      padding: 0.5rem;
+    }
+  
+    .social-bar {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.5rem;
+      text-align: center;
+    }
+  
+    .top-gap, .gap, .gap32, .bottoms {
+      height: 2vh;
+    }
+  
+    #intro {
+      font-size: 0.95rem;
+    }
+  
+    button {
+      font-size: 0.9rem !important;
+      padding: 0.3rem !important;
+    }
+  }
+  
